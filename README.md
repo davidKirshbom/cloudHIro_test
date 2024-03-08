@@ -5,13 +5,13 @@ Follow these steps to install the project:
 1. Clone the repository:
 
     ```
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/davidKirshbom/cloudHIro_test.git
     ```
 
 2. Navigate into the project directory:
 
     ```
-    cd repository
+    cd cloudHIro_test
     ```
 
 3. Install the Composer dependencies:
