@@ -17,7 +17,7 @@ Follow these steps to install the project:
 3. Install the Composer dependencies:
 
     ```
-    composer install
+    composer install --ignore-platform-reqs
     ```
 
 4. Install the npm dependencies:
