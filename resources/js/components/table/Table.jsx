@@ -9,6 +9,7 @@ import {
     getFilteredRowModel,
     useReactTable,
 } from "@tanstack/react-table";
+import RowsCountSelect from "./RowsCountSelect";
 
 function Table(props) {
     const { columns, data } = props;
@@ -30,7 +31,11 @@ function Table(props) {
     });
 
     return (
-        <div className="container">
+        <div className="container mt-5">
+            <RowsCountSelect
+                rowsCount={table.getState().pagination.pageSize}
+                setPageSize={table.setPageSize}
+            />
             <table
                 className="table-auto border-black"
                 striped

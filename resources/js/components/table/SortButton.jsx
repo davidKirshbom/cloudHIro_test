@@ -1,6 +1,9 @@
 function SortButton({ header, sortHandler }) {
     return (
-        <span onClick={header.column.getToggleSortingHandler()} className="">
+        <span
+            onClick={header.column.getToggleSortingHandler()}
+            className="hover:cursor-pointer"
+        >
             {header.column.getIsSorted() ? (
                 header.column.getIsSorted() === "asc" ? (
                     <i className="bi bi-arrow-up ml-1"></i>
